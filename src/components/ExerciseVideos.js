@@ -1,8 +1,8 @@
 import React from 'react';
 import { Typography, Box, Stack } from '@mui/material';
-import {Loader} from './Loader';
+import Loader from './Loader';
 
-export const ExerciseVideos = ({ exerciseVideos, name }) => {
+const ExerciseVideos = ({ exerciseVideos, name }) => {
   if (!exerciseVideos.length) return <Loader />;
 
   return (
@@ -34,3 +34,5 @@ export const ExerciseVideos = ({ exerciseVideos, name }) => {
     </Box>
   );
 };
+
+export default ExerciseVideos;
