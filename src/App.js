@@ -14,7 +14,7 @@ import { Footer } from "./components/Footer";
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/exercise/:id" element={<ExerciseDetail />} />
+        <Route path="/exercidasdasdse/:id" element={<ExerciseDetail />} />
       </Routes>
       <Footer />
     </Box>
